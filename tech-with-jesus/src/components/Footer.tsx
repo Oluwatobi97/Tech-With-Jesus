@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Linkedin, Instagram } from "lucide-react";
+import TiktokIcon from "./TiktokIcon";
 
 const Footer: React.FC = () => {
   const [name, setName] = useState("");
@@ -78,6 +80,38 @@ const Footer: React.FC = () => {
           <p className="mt-4">
             🌐 Follow us on social media — let’s grow this mission together.
           </p>
+          <div className="mt-2">
+            <p className="text-lg font-semibold text-accent mb-4">Follow Us</p>
+            <div className="flex justify-center items-center space-x-6">
+              <a
+                href="https://www.linkedin.com/company/tech-with-jesus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light-text-secondary dark:text-dark-text-secondary hover:text-accent transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={28} />
+              </a>
+              <a
+                href="https://www.instagram.com/techwithjesus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light-text-secondary dark:text-dark-text-secondary hover:text-accent transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={28} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@twt_techwithjesus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light-text-secondary dark:text-dark-text-secondary hover:text-accent transition-colors"
+                aria-label="TikTok"
+              >
+                <TiktokIcon className="w-7 h-7" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
