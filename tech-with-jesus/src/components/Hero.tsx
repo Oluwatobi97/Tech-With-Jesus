@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           Tech With Jesus
         </h1>
 
-        <p className="text-lg sm:text-xl text-gray-200 mb-8 leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-500 mb-8 leading-relaxed">
           Empowering minds through faith and technology. <br />
           We believe innovation is a calling — to create digital solutions that
           inspire, educate, and transform lives with purpose.
