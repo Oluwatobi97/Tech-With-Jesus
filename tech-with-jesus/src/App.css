@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to bottom right, #F8FAFC, #CBD5E1);
+    color: #1E1E1E;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+  }
+  
+  /* Optional: smooth transitions for glass effects */
+  * {
+    transition: all 0.2s ease-in-out;
+  }
+  
